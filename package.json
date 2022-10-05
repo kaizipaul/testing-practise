@@ -1,0 +1,30 @@
+{
+  "name": "testing-practise",
+  "version": "1.0.0",
+  "description": "A repo for practicing unit tests in JavaScript using Jest",
+  "main": "strings.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaizipaul/testing-practise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaizipaul/testing-practise/issues"
+  },
+  "homepage": "https://github.com/kaizipaul/testing-practise#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.19.3",
+    "babel-jest": "^29.1.2",
+    "jest": "^29.1.2"
+  }
+}
